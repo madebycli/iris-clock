@@ -1,5 +1,8 @@
 # Iris for the watch
 
+> **Paused.** Iris has no watch support for now, neither through an own watch app nor through
+> Gadgetbridge. The code and the guide stay here for later.
+
 A remote for [Iris](https://github.com/madebycli/iris-android) on the **HUAWEI WATCH GT 6** (and other
 GT lite wearables): tap, speak, read the answer. Alarms, reminders, timers and lists are created by
 Iris on the phone; the watch shows the confirmation and rings through Huawei Health's mirroring.
