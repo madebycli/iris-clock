@@ -1,0 +1,7 @@
+<div class="page" onswipe="swipe">
+    <text class="head">Statistik</text>
+    <list class="rows">
+        <list-item class="row" for="{{rows}}"><text class="label">{{$item.k}}</text><text class="value">{{$item.v}}</text></list-item>
+        <list-item class="row" onclick="reset"><text class="label reset">{{resetLabel}}</text><text class="value"></text></list-item>
+    </list>
+</div>

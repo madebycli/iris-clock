@@ -1,0 +1,6 @@
+<div class="page" onswipe="swipe">
+    <text class="head">Anleitung</text>
+    <list class="rows">
+        <list-item class="row" for="{{lines}}"><text class="text {{$item.h ? 'sub' : ''}}">{{$item.t}}</text></list-item>
+    </list>
+</div>

@@ -7,9 +7,10 @@ Iris on the phone; the watch shows the confirmation and rings through Huawei Hea
 - `watch/` — the watch app (HarmonyOS lite wearable, JS/HML/CSS): start page with the microphone
   button and state, answer page with card and Yes/No, settings (language, vibration, text size, how
   long an answer stays).
+- `slots/` — Iris Slots, a one-armed bandit to test building and installing an own app on the watch (see `slots/README.md`).
 - `docs/PROTOCOL.md` — the messages between watch and phone.
 - `docs/PHONE_SIDE.md` — what the Iris app on the phone does, and what is still unknown.
-- `tests/` — `node tests/protocol.test.mjs` checks the message rules without a watch.
+- `tests/` — `node tests/protocol.test.mjs` and `node tests/slots.test.mjs` check the message rules and the slot machine's numbers without a watch.
 
 ## Status
 

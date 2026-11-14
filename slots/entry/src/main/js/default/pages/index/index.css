@@ -1,0 +1,16 @@
+.page { width: 466px; height: 466px; flex-direction: column; align-items: center; background-color: #0b0e14; padding-top: 34px; }
+.credits { width: 260px; height: 36px; font-size: 24px; color: #fbbf24; text-align: center; }
+.machine { width: 330px; height: 210px; flex-direction: row; justify-content: space-between; align-items: center; background-color: #1a1f2b; border-radius: 22px; padding-left: 10px; padding-right: 10px; border-width: 3px; border-color: #c2410c; }
+.payline { position: absolute; left: 0px; top: 104px; width: 330px; height: 4px; background-color: #5a2a14; }
+.payline-on { background-color: #fbbf24; }
+.reel { width: 98px; height: 200px; flex-direction: column; align-items: center; justify-content: space-between; background-color: #f5f1e8; border-radius: 12px; }
+.sym { width: 64px; height: 64px; }
+.dim { opacity: 0.35; }
+.say { width: 340px; height: 44px; font-size: 26px; color: #a2adc0; text-align: center; margin-top: 8px; }
+.win { color: #5fd08a; }
+.big { color: #fbbf24; }
+.jackpot { color: #ff5a3c; font-size: 30px; }
+.say-on { color: #ffffff; }
+.lever { width: 180px; height: 56px; border-radius: 28px; background-color: #c2410c; font-size: 26px; color: #ffffff; margin-top: 4px; }
+.lever-busy { background-color: #4b5567; }
+.nav { width: 300px; height: 30px; font-size: 16px; color: #5d6779; text-align: center; margin-top: 6px; }

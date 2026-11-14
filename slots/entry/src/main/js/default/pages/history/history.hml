@@ -1,0 +1,7 @@
+<div class="page" onswipe="swipe">
+    <text class="head">Letzte Runden</text>
+    <text class="empty" if="{{items.length === 0}}">Noch nicht gespielt.</text>
+    <list class="rows">
+        <list-item class="row" for="{{items}}"><text class="line">{{$item.line}}</text><text class="win {{$item.won ? 'won' : ''}}">{{$item.win}}</text></list-item>
+    </list>
+</div>
