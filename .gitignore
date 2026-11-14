@@ -1,0 +1,7 @@
+node_modules/
+build/
+.hvigor/
+.idea/
+local.properties
+watch/entry/src/main/js/default/common/wearengine.js
+*.hap

@@ -1,0 +1,17 @@
+<div class="page" onswipe="swipe">
+    <div class="card" if="{{card}}">
+        <text class="kind">{{cardKind}}</text>
+        <text class="title">{{cardTitle}}</text>
+        <text class="when" if="{{cardWhen}}">{{cardWhen}}</text>
+    </div>
+    <list class="scroll">
+        <list-item class="item">
+            <text class="answer {{big ? 'big' : ''}}">{{text}}</text>
+        </list-item>
+    </list>
+    <div class="buttons" if="{{ask}}">
+        <input type="button" class="yes" value="{{w.yes}}" onclick="yes"></input>
+        <input type="button" class="no" value="{{w.no}}" onclick="no"></input>
+    </div>
+    <input type="button" class="again" value="🎤" onclick="again" if="{{!ask}}"></input>
+</div>

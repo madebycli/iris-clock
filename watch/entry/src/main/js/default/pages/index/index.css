@@ -1,0 +1,9 @@
+.page { width: 466px; height: 466px; flex-direction: column; justify-content: center; align-items: center; background-color: #000000; }
+.state { width: 340px; height: 60px; font-size: 26px; text-align: center; color: #c9cfdb; }
+.busy { color: #fb8a4c; }
+.mic { width: 180px; height: 180px; border-radius: 90px; justify-content: center; align-items: center; background-color: #2450c4; margin-top: 16px; margin-bottom: 16px; }
+.listening { background-color: #c2410c; }
+.thinking { background-color: #4b5567; }
+.glyph { width: 84px; height: 84px; }
+.hint { width: 320px; height: 44px; font-size: 22px; text-align: center; color: #8b95a9; }
+.gear { width: 60px; height: 50px; font-size: 32px; text-align: center; color: #8b95a9; }

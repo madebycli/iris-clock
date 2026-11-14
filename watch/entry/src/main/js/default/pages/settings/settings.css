@@ -1,0 +1,6 @@
+.page { width: 466px; height: 466px; flex-direction: column; align-items: center; background-color: #000000; padding-top: 50px; }
+.head { width: 300px; height: 50px; font-size: 28px; color: #fb8a4c; text-align: center; }
+.rows { width: 360px; height: 320px; }
+.row { width: 360px; height: 64px; justify-content: space-between; align-items: center; border-bottom-width: 1px; border-color: #343e52; }
+.label { width: 200px; font-size: 24px; color: #e8ecf4; }
+.value { width: 150px; font-size: 24px; color: #a2adc0; text-align: right; }

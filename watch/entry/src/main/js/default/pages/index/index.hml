@@ -1,0 +1,8 @@
+<div class="page" onswipe="swipe">
+    <text class="state {{busy ? 'busy' : ''}}">{{status}}</text>
+    <div class="mic {{phase}}" onclick="tap">
+        <image class="glyph" src="/common/mic.png"></image>
+    </div>
+    <text class="hint">{{hint}}</text>
+    <text class="gear" onclick="openSettings">⚙</text>
+</div>

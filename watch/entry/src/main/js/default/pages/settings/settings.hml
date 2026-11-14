@@ -1,0 +1,10 @@
+<div class="page" onswipe="swipe">
+    <text class="head">{{w.settings}}</text>
+    <list class="rows">
+        <list-item class="row" onclick="toggleLang"><text class="label">{{w.language}}</text><text class="value">{{s.lang === 'de' ? 'Deutsch' : 'English'}}</text></list-item>
+        <list-item class="row" onclick="toggleVibrate"><text class="label">{{w.vibrate}}</text><text class="value">{{s.vibrate ? w.on : w.off}}</text></list-item>
+        <list-item class="row" onclick="toggleBig"><text class="label">{{w.big}}</text><text class="value">{{s.big ? w.on : w.off}}</text></list-item>
+        <list-item class="row" onclick="cycleKeep"><text class="label">{{w.keep}}</text><text class="value">{{s.keep}} {{w.seconds}}</text></list-item>
+        <list-item class="row" onclick="back"><text class="label">{{w.back}}</text><text class="value"></text></list-item>
+    </list>
+</div>
